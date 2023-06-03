@@ -1,0 +1,75 @@
+
+.genel{
+    max-width: 500px;
+    position: relative;
+    left: 500px;
+    bottom: 70px;
+    border-radius: 10px;
+    border-bottom-right-radius: 130px;
+  
+}
+@media (max-width: 1440px) {
+    .genel {
+      left: 400px;
+    }
+  }
+  @media (max-width: 1115px) {
+    .genel {
+      left: 300px;
+    }
+  }
+  @media (max-width: 950px) {
+    .genel {
+      left: 200px;
+    }
+  }
+  @media (max-width: 790px) {
+    .genel {
+      left: 100px;
+    }
+  }
+  @media (max-width: 650px) {
+    .genel {
+      left: 50px;
+    }
+  }
+.formsİnputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    padding: 30px;
+    
+}
+.inputBorder{
+    border: 2px solid #824dff;
+    text-align: center;
+    font-size: 32px;
+    border-radius: 5px;
+}
+input:focus {
+    outline: none;
+}
+.iconButton{
+    border: 2px solid #824dff;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    
+}
+.seeAge{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+.textClass{
+    font-size: 30px;
+    font-weight: bold;
+}
+.show{
+    color: #824dff;;
+}
